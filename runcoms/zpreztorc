@@ -40,10 +40,16 @@ zstyle ':prezto:load' pmodule \
   'ruby' \
   'editor' \
   'history' \
+  'helper' \
+  'tmux' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
+  'autosuggestions' \
+  'command-not-found' \
+  'history-substring-search' \
+  'syntax-highlighting' \
   'prompt'
 
 #
@@ -69,10 +75,10 @@ zstyle ':prezto:module:completion:*:hosts' etc-host-ignores \
 zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Auto convert .... to ../..
-# zstyle ':prezto:module:editor' dot-expansion 'yes'
+zstyle ':prezto:module:editor' dot-expansion 'yes'
 
 # Allow the zsh prompt context to be shown.
-#zstyle ':prezto:module:editor' ps-context 'yes'
+zstyle ':prezto:module:editor' ps-context 'yes'
 
 #
 # Git
@@ -174,13 +180,13 @@ zstyle ':prezto:module:ssh:load' identities 'id_mike-zalewhol'
 
 # Set syntax highlighters.
 # By default, only the main highlighter is enabled.
-# zstyle ':prezto:module:syntax-highlighting' highlighters \
-#   'main' \
-#   'brackets' \
-#   'pattern' \
-#   'line' \
-#   'cursor' \
-#   'root'
+ zstyle ':prezto:module:syntax-highlighting' highlighters \
+   'main' \
+   'brackets' \
+   'pattern' \
+   'line' \
+   'cursor' \
+   'root'
 #
 # Set syntax highlighting styles.
 # zstyle ':prezto:module:syntax-highlighting' styles \
