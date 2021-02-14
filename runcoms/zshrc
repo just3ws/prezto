@@ -24,6 +24,9 @@ fi
 alias vim='/usr/local/bin/nvim'
 alias vi='/usr/local/bin/nvim'
 
+alias gss='git status --short'
+alias gco='git checkout'
+
 source ~/.asdf/asdf.sh
 # append completions to fpath
 fpath=(${ASDF_DIR}/completions $fpath)
