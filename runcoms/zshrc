@@ -24,10 +24,26 @@ fi
 alias vim='/usr/local/bin/nvim'
 alias vi='/usr/local/bin/nvim'
 
-alias gss='git status --short'
+alias b='bundle'
+alias be='bundle exec'
+
+alias gba='git branch --all'
 alias gco='git checkout'
+alias gfa='git fetch --all --prune'
+alias gss='git status --short'
+alias gwd='git diff --word-diff'
+alias bsl='brew service list'
+
+alias ll='ls -alh'
+
+alias cwd='pwd | pbcopy'
 
 alias git='/usr/local/bin/hub'
+
+alias listening-on='lsof -Pni4 | grep LISTEN'
+
+source '/usr/local/opt/fzf/shell/completion.zsh'
+source '/usr/local/opt/fzf/shell/key-bindings.zsh'
 
 source ~/.asdf/asdf.sh
 # append completions to fpath
