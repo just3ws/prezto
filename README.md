@@ -43,7 +43,7 @@ version is 4.3.11.
   4. Set Zsh as your default shell:
 
      ```console
-     chsh -s /bin/zsh
+     chsh -s /usr/local/bin/zsh
      ```
 
   5. Open a new Zsh terminal window or tab.
