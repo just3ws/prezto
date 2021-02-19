@@ -49,7 +49,7 @@ alias -g lxxx='l -30'
 alias b='bundle'
 alias be='bundle exec'
 
-alias bsl='brew service list'
+alias bsl='brew services list'
 alias gba='git branch --all'
 alias gco='git checkout'
 alias gfa='git fetch --all --prune'
